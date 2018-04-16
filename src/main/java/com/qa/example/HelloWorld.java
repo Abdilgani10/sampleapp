@@ -15,7 +15,7 @@ public class HelloWorld {
     @Path("/json")
     @Produces({ "application/json" })
     public String getHelloWorldJSON() {
-        return "{\"result\":\"" + helloService.createHelloMessage("John") + "\"}";
+        return "{\"result\":\"" + helloService.createHelloMessage("Gani") + "\"}";
     }
 
     @GET
